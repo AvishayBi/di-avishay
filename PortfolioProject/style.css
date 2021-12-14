@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+{ box-sizing:border-box; }
+
+nav{
+	display: flex;
+	flex-direction: row;
+}
+section {
+	height : 400px;
+	border: 3px ;
+	display:flex; 
+	/* display:flex on the parent container */
+	flex-direction: row;
+	/* flex-direction: row DEFAULT */
+	/*justify-content:space-around;
+	align-items: flex-start;
+/*   align items in the container along the cross axis (y axis). 
+DEFAULT STRECH */
+flex-wrap:wrap;
+}
+
+.div1 {
+	width: 50%;
+}
+
+.div2 {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-between;
+
+	width: 30%;
+	/* See what happens if width: 80%;   */
+	align-self: flex-end
+}
+li{
+	list-style-type: none;
+}
