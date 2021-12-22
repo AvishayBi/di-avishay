@@ -1,0 +1,33 @@
+#btnRed {
+	background-color:  red;
+	font-size: 30px;
+}
+
+#btnBlue {
+	background-color:  blue;
+	font-size: 30px;
+	color:  white;
+}
+
+#btnGreen {
+	background-color:  green;
+	font-size: 30px;
+}
+
+#btnPink {
+	background-color:  pink;
+	font-size: 30px;
+	color:  white;
+}
+
+
+#btnOrange {
+	background-color:  orange;
+	font-size: 30px;
+}
+
+#btnYellow {
+	background-color:  yellow;
+	font-size: 30px;
+	color:  white;
+}
